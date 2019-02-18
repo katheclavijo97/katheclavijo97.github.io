@@ -28,6 +28,7 @@ body {
 
 img {
     vertical-align: baseline;
+
 }
 
 /*--------------------------------------------------------------
@@ -1181,7 +1182,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .footer-bar {
     padding: 22px 0;
-    background: #2f2f2f;
+    background: #6C6D70;
 }
 
 .footer-copyright p {
@@ -1231,4 +1232,32 @@ a:hover, a:active {
     .footer-social li {
         margin: 0 0 0 30px;
     }
+}
+
+nav {
+   
+    background-color: #6C6D70;
+    font-family: 'Raleway';
+}
+
+
+.jh{
+    background-color: red;
+}
+
+.center {
+  display: block;
+  margin-left: all;
+  margin-right: all;
+  width: 50%;
+  align-items: center;
+  align-content: center;
+  clear: both;
+  content: "";
+}
+
+footer {
+   
+    background-color: #6C6D70;
+    
 }

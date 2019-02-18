@@ -6088,6 +6088,7 @@ a.close.disabled {
 
 .carousel {
   position: relative;
+  align-items: center;
 }
 
 .carousel.pointer-event {
@@ -6097,7 +6098,7 @@ a.close.disabled {
 
 .carousel-inner {
   position: relative;
-  width: 100%;
+  width: 500px;
   overflow: hidden;
 }
 
