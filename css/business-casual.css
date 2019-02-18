@@ -118,9 +118,9 @@ p {
   position: relative;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 100px) {
   .intro .intro-img {
-    width: 75%;
+    width: 10%;
     float: right;
   }
   .intro .intro-text {
@@ -226,7 +226,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(100, 100, 15, 0.9);
+  background-color: rgba(55, 23, 15, 0.9);
 }
 
 .text-primary {
