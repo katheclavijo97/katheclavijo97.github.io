@@ -1238,6 +1238,7 @@ nav {
    
     background-color: #6C6D70;
     font-family: 'Raleway';
+    position: fixed;
 }
 
 
@@ -1261,5 +1262,225 @@ footer {
     background-color: #6C6D70;
     
 }
+
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper { 
+  border : 2px solid #000; 
+  overflow:hidden;
+}
+
+.wrapper div {
+   min-height: 200px;
+   padding: 10px;
+}
+#one {
+  background-color: gray;
+  float:left; 
+  margin-right:20px;
+  width:140px;
+  border-right:2px solid #000;
+}
+#two { 
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+  border:2px dashed #ccc;
+  min-height:170px;
+}
+
+@media screen and (max-width: 400px) {
+   #one { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
+  }
+}
+
+
+.container1{
+    height: 1000px;
+  width: 100%;
+}
+
+.arreglada
+{
+    position: fixed;
+    top: 0;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section
+{
+    width: 100%;
+
+
+    
+}
+
+section.hola
+{
+    
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+section.hola ul
+{
+    
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+#grid {
+  display: grid;
+  height: 200px;
+  grid-template-columns: 200px;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 20px;
+}
+
+#grid > div {
+  border: 1px solid green;
+  background-color: lime;
+  padding: 100
+}
+
+
+
+/*  SECTIONS  */
+.section1 {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col1 {
+    display: block;
+    float:left;
+    margin: 1% 0 1% 0%;
+    margin-left: 0%;
+    
+
+}
+
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+    width: 100%;
+}
+.span_1_of_2 {
+    width: 50%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 200px) {
+    .col1 { 
+        margin: 1% 0 1% 0%;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .span_2_of_2, .span_1_of_2 { width: 50%; }
+}
+
+
+
+ .box {
+          text-align: center;
+          font: 15px "Helvetica Neue";
+          background:#BFBFBF;
+          color: black;
+          padding: 118px  0px;
+          
+        }
+
+
+ .box p{
+          text-align: center;
+          font: 20px "Helvetica Neue";
+          background:#BFBFBF;
+          color: black;
+         
+          
+        }
+
+
+        .boxama {
+          text-align: center;
+          font: 15px "Helvetica Neue";
+          background:#EBB630;
+          color: black;
+          padding: 118px  0px;
+          
+        }
+
+
+ .boxama p{
+          text-align: center;
+          font: 20px "Helvetica Neue";
+          background:#EBB630;
+          color: black;
+         
+          
+        }
+        
+
+
+ .box img.wide {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+          
+        }
+
+         .box img.tall {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+          
+        }
+
+        .box img {
+   width: 100%;
+   height: 100px;
+}
+
 
 
