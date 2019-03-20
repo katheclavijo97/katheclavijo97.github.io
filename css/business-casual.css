@@ -120,7 +120,8 @@ p {
 
 @media (min-width: 992px) {
   .intro .intro-img {
-    width: 75%;
+    width: 10px;
+    height:  20px;
     float: right;
   }
   .intro .intro-text {

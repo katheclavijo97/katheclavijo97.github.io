@@ -1255,12 +1255,17 @@ nav {
   align-content: center;
   clear: both;
   content: "";
+  text-align: center;
 }
 
 footer {
    
     background-color: #6C6D70;
     
+}
+.imagen{
+height: 10px;
+width: 10px;
 }
 
 
@@ -1348,17 +1353,11 @@ section.hola
     background-image: url(fondo.jpg);
     background-size: cover;
     height: 100vh;
+    content: 
     
 }
 
-section.hola ul
-{
-    
-    background-image: url(fondo.jpg);
-    background-size: cover;
-    height: 100vh;
-    
-}
+
 
 #grid {
   display: grid;
@@ -1482,5 +1481,143 @@ section.hola ul
    height: 100px;
 }
 
+
+
+
+#fondo{
+
+    position: absolute;
+    bottom: 0;
+
+    
+    
+}
+#contenedor{
+    position: relative;
+}
+
+.oculto-xs{
+display: none !important;
+    visibility: hidden !important;
+}
+
+
+@media all and (min-width: 800px) {
+
+    .content .des{display:block;}
+    .content .tab{display:none;}
+    .content .cel{display:none;}
+
+}
+
+@media all and (min-width: 600px) and (max-width: 799px) {
+
+    .content .des{display:none;}
+    .content .tab{display:block;}
+    .content .cel{display:none;}
+
+}
+
+@media all and (min-width: 300px) and (max-width: 599px){
+
+    .content .des{display:none;}
+    .content .tab{display:none;}
+    .content .cel{display:block;}
+
+}
+
+#menu{
+    margin-left: 280px;
+}
+
+#menu ul{
+    list-style: none;
+    columns: 2;
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+
+#menu ul ul{
+    display: none;
+
+}
+
+#menu ul li:hover>ul{
+    display: block;
+}
+
+.hrmain {
+  
+
+
+color: #a6a6a6;
+
+border: dotted;
+  
+  
+  width: 38%;
+
+  margin-left: 435px;
+
+  
+}
+
+
+
+        .box2 {
+          text-align: center;
+          font: 15px "Helvetica Neue";
+          
+          color: black;
+          padding: 118px  0px;
+          margin-bottom: 100px;
+          
+        }
+
+
+
+
+
+.box2img{
+    height: 120px;
+    width: 150px;
+}
+
+.gota{
+    height: 120px;
+    width: 80px;
+}
+
+.box2 h5{
+    font-family: Raleway;
+    font-weight: bolder;
+}
+.box2 h6{
+    font-family: Raleway;
+    color: #FFBE2E;
+    font-weight: bolder;
+}
+
+
+
+.minihr{
+
+    border: solid;
+    color: #000000;
+    width: 12%;
+
+  
+  
+
+}
+
+
+.letraMateriales{
+    margin-left: 20px;
+}
 
 
